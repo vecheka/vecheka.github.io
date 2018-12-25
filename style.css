@@ -1,0 +1,236 @@
+body {
+			position: relative;
+			<!-- padding-top: 75px; -->
+		}
+		
+		.navbar-brand {
+			font-family: 'Major Mono Display', monospace;
+			cursor: pointer;
+			display: none;
+			
+		}
+		
+		.navbar-brand a {
+			text-decoration: none;
+			color: #FFF; 
+		}
+		
+		
+			
+		.navbar .navbar-nav>li.active>a,
+		.navbar .navbar-nav>li.active>a:focus,
+		.navbar .navbar-nav>li.active>a:hover {
+			color: #ffffff;
+			background-color: #0B122E;
+			opacity: 0.95;
+			border-radius: 10px;
+				
+		}
+		
+		.nav-item {
+			width: 180px;
+			text-align: center;
+			font-family: 'Major Mono Display', monospace;
+			font-weight: bold;
+		}
+		
+		.container #content {
+			position: relative;
+			margin-top: 80px;
+		}
+		
+		#welcomePage {
+			height: 100vh;
+			min-height: 400px;
+			background-size: cover;
+			background-image: url("images/galaxy.jpg");
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+		.name {
+			text-align: center;
+			color: #b9f6f2; 
+			font-family: 'Major Mono Display', monospace;
+			display: none;
+			
+		}
+		
+		.name span {
+			font-size: 50%;
+			margin-left: -1%;
+		}
+		
+		.name h1 {
+			font-size: 280%;
+			
+		}
+		
+		
+		.section-title {
+			color: #283671;
+			width: auto;
+			text-align: center;
+			font-family: 'Major Mono Display', monospace;	
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+
+		.after {
+			display: block;
+			margin: 0 auto;
+			width: 120px;
+			padding-top: 5px;
+			border-bottom: 4px solid #283671;
+		}
+		
+		#about img {
+			width: 320px;
+			height: 280px;
+			border-radius: 100px;
+		}
+		
+		.sections {
+			font-family: 'Montserrat', sans-serif;
+			text-align: left;
+			font-size: 95%;
+			color: grey;
+		}
+		
+		.school_logo {
+			width: 100px;
+			height: 100px;
+			padding-right: 15px;
+		}
+		
+		.school_name {
+			color: black;
+			margin-left: -45px;
+			font-weight: bold;
+		}
+		
+		.school_year {
+			color: grey;
+			margin-left: -45px;
+			font-weight: bold;
+			
+		}
+		
+		.location_icon img{
+			width: 20px;
+			height: 20px;
+			margin-left: -45px;	
+			margin-top: -12px;
+		}
+		
+		
+		.location_icon {
+			color: #1F497D;
+			font-weight: bold;
+			padding-top: 8px;
+			padding-left: 2px;
+		}
+		
+		.school_description ul {
+			list-style: none;
+			margin-left: -45px;
+		}
+		
+		.school_description li {
+			padding-bottom: 5px;
+		}
+		
+		.project_logo img {
+			width: 80px;
+			height: 80px;
+			cursor: pointer;
+		}
+		
+		.project_title {
+			margin-left: -45px;
+			font-weight: bold;
+			color: black;
+			text-align: left;
+		}
+		
+		.project_title a {
+			color: black;
+			
+		}
+		
+		.languages {
+			color: black;
+			font-weight: bold;
+			padding-right: 50%;
+		}
+		
+		.checked {
+			color: #283671;
+		}
+		
+		.work_title {
+			text-align: center;
+			color: black;
+			font-weight: bold;
+		}
+		
+		.work_title span {
+			color: grey;
+			font-style: italic;
+			font-size: 13px;
+			font-weight: normal;
+		}
+		
+		.work_description {
+			text-align: center;
+			
+		}
+		
+		.work_description li {
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+		
+		.work_description span {
+			font-weight: normal;
+		}
+		
+		.contact_info img {
+			width: 80px;
+			height: 80px;
+			margin-left: 20%;
+			margin-bottom: 5px;
+		}
+		
+		.contact_info span {
+			cursor: pointer;
+			text-transform: uppercase;
+		}
+		
+		.contact_info span:hover {
+			padding-top: 5px;
+			border-bottom: 2px solid #283671;
+		}
+		
+		.contact_info span a {
+			text-decoration: none;
+			color: #283671;
+		}
+		
+		.footer {
+			margin-top: 100px;
+			height: 80px;
+			width: 100%;
+			text-align: center;
+			background-color: #1D262F;
+			color: #FFF;
+		}
+		
+		.footer div {
+			padding-top: 30px;
+			font-size: 13px;
+			font-weight: normal;
+		}
+		
+		.footer i {
+			color: #283671
+		}
