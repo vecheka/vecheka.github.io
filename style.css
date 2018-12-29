@@ -1,4 +1,4 @@
-body {
+		body {
 			position: relative;
 			<!-- padding-top: 75px; -->
 		}
@@ -28,7 +28,6 @@ body {
 		}
 		
 		.nav-item {
-			width: 180px;
 			text-align: center;
 			font-family: 'Major Mono Display', monospace;
 			font-weight: bold;
@@ -160,7 +159,11 @@ body {
 		.languages {
 			color: black;
 			font-weight: bold;
-			padding-right: 50%;
+			<!-- padding-right: 50%; -->
+		}
+	
+		.language_hover {
+			width: 270px;
 		}
 		
 		.checked {
@@ -197,9 +200,9 @@ body {
 		.contact_info img {
 			width: 80px;
 			height: 80px;
-			margin-left: 20%;
 			margin-bottom: 5px;
 		}
+	
 		
 		.contact_info span {
 			cursor: pointer;
